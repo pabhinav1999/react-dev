@@ -1,0 +1,23 @@
+1) What is Emmet ?
+A: Emmet is a productivity tool kit built in code editors to generate cleaner code with appropriate short cuts
+Eg: ul>li*3 , h1>header+content+footer
+
+2) Difference between a Library and Framework? 
+A: The primary difference between Library and Framework is about inversion of control
+In Library (for eg. React), Developer can decide when to call your code , whereas in angular ,code needs to be called in certain functions as architecture of the application is designed by framework itself(eg. ngoninit)
+
+3) What is a CDN and why do we use it ?
+A: A Content Delivery Network (CDN) is a collection of distributed servers placed in different geographic locations that cache and deliver content to users. By serving files like scripts, videos, and images from the server closest to the user, CDNs reduce latency and loading times. This leads to better website performance, scalability, and a smoother user experience.
+
+4) Why is React known as React?
+A: React is known for its greater ability to update the required user interface of  web page. This name reflects its core principles,interactive UIs that respond dynamically on state updates
+
+5) What is cross origin in script tag ?
+A: Cross origin in a script tag defines how the requests to different origins can be handled, those attribute values include anonymous,use-credentials
+
+6) What is React and ReactDOM?
+A: React is a library used to build User interfaces while React DOM is a bridge or a link between React and Browser
+
+7) What is the difference between react.development.js and react.production.js files from CDN?
+A: React.developemt.js has larger files,, not minimised, contains error messages , warning messages, etc. used for developers, whereas React.production.js has minimised files , optimised code 
+
