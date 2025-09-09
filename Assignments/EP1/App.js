@@ -1,3 +1,5 @@
+import React from "react"
+import { createRoot } from "react-dom/client"
 const headingRct = React.createElement('h4',{ 'id': 'title'}, 'This is a React Hello world')
 const rootReact = ReactDOM.createRoot(document.getElementById('root'))
 rootReact.render(headingRct)

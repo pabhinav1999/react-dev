@@ -1,0 +1,56 @@
+1) What is NPM ?
+A: NPM is a tool which manages packages. These help in installing the packages which is required for our app to develop and also to ship into production
+
+2) What is Parcel/WebPack? Why do we need it?
+A: Parcel/Webpack is a package that bundles our app to make that production ready by optimising , minimising etc
+It can also make the dev build which is ready to be hosted on server
+
+3) What is parcel-cache?
+A: Parcel when built the dev build , creates a cache folder so that when new changes happen , it does not take time to load whole ,rather it updates only the required part
+
+4) What is npx?
+A: npx is a  tool which executes the package not install
+Eg. npx parcel index.html
+
+5) What is the difference between dependencies and devDependencies?
+A: Dependenices are the list of packages which needed for production whereas dev dependencies are the list which only required for development and bundling etc
+
+6) What is Tree shaking ?
+A: Tree shaking is a phenonenon in which the ununused code will be eliminated
+
+7) What is HMR?
+A: HMR is a feature of bundlers where only the required updated files are updated in build and ready to serve by the server
+
+8) Mention any 5 superpowers of parcel ? Describe about 3 in your own words?
+A: File Watching : Parcel uses a C++ alogorithm , it watches the files deep from the      node modules and mention which files need to be built again
+
+  Code splitting : Parcel splits the code into smaller bundles by making the load time faster
+
+  Consistent Hashing
+
+  Image optimisation: Parcel optimises the images
+
+  HMR : Hot module replacement
+
+
+9) What is `.gitignore`? What should we add and not add into it?
+A: .git ignore is a folder in our project where the folders or files which need not to be tracked by git are put in it
+  Any folder or files which can be regenerated needed to be put into git ignore folder
+  Eg. node_modules
+
+
+10) What is the difference between `package.json` and `package-lock.json` 
+A: package.json have the generic versions of packages that needs to be installed.package-lock.json generated after installing packages determine the exact or specific version of the package that is installed. It is helpful to keep n project so that when node modules are deleted , package-lock.json can be referred and download the exact version
+
+11)  Why should I not modify `package-lock.json`? 
+A: package-lock.json specifies the exact version of the packages. This file should not be corrupted 
+
+12) What is `node_modules` ? Is it a good idea to push that on git?
+A: Node modules are the files which are third part transitive packages which are generated on installing packages from package.json. As they can be regenerated , they are not suggested to put into git
+
+13) What is the dist folder?
+A: dist folder contains the minimised version of our project code .Its a production ready code . It contains minimised js files, optimised css, entry point index.html , static assets , source maps
+
+14) What is `browserlists` ?
+A: Browserslist is a configuration tool that lets you specify which browsers (and versions) your project should support.
+

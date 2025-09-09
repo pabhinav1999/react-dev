@@ -1,0 +1,19 @@
+{
+  "name": "ep1",
+  "version": "1.0.0",
+  "description": "creating react app manually",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ep1.html",
+    "build": "parcel build ep1.html"
+  },
+  "author": "Abhinav",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
